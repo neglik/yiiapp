@@ -1,0 +1,5 @@
+#! /bin/sh
+
+./vendor/bin/codecept clean
+./vendor/bin/codecept build
+./vendor/bin/codecept run
